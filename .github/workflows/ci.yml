@@ -37,6 +37,12 @@ jobs:
           repository: yldales/isla-nycta-json
           path: isla-nycta-json
 
+      - name: Generate markdown files
+        run: |
+          cd scripts
+          python generate_tiers.py
+          python generate_dinosaurs.py
+
       - run: pip install mkdocs-material 
 
       - run: mkdocs gh-deploy --force
