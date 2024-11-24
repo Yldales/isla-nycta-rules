@@ -14,7 +14,7 @@ import collections
 SCHEMA_PATH = 'schemas/nycta.schema.json'
 DINOSAURS_PATH = 'schemas/dinosaurs.schema.json'
 TEMPLATE_DIR = 'templates'
-TEMPLATE_FILE = 'templates/profile.html'
+TEMPLATE_FILE = 'profile.html'
 JSON_FILES_DIR = '../isla-nycta-json/dinosaurs'
 OUTPUT_DIR = '../docs/pot'
 
@@ -24,20 +24,20 @@ OUTPUT_DIR = '../docs/pot'
 
 # ...
 if not os.path.exists(SCHEMA_PATH):
-    print(f"Error: Schema file {SCHEMA_PATH} does not exist at {SCHEMA_PATH}.")
+    print(f"Error: Schema file {SCHEMA_PATH} does not exist.")
     exit(1)
 
 with open(SCHEMA_PATH) as schema_file:
-    print(f"Loading schema file {SCHEMA_PATH} from {SCHEMA_PATH}.")
+    print(f"Loading schema file {SCHEMA_PATH}.")
     schema = json.load(schema_file)
 
 # ...
 if not os.path.exists(DINOSAURS_PATH):
-    print(f"Error: Dinosaurs file {DINOSAURS_PATH} does not exist at {DINOSAURS_PATH}.")
+    print(f"Error: Dinosaurs file {DINOSAURS_PATH} does not exist.")
     exit(1)
 
 with open(DINOSAURS_PATH) as f:
-    print(f"Loading dinosaurs file {DINOSAURS_PATH} from {DINOSAURS_PATH}.")
+    print(f"Loading dinosaurs file {DINOSAURS_PATH}.")
     dinosaurs = json.load(f)
 
 #==============================================================================#
@@ -45,9 +45,8 @@ with open(DINOSAURS_PATH) as f:
 #==============================================================================#
 
 # Jinja2 template
-if not os.path.exists(TEMPLATE_FILE):
+if not os.path.exists(f"{TEMPLATE_DIR}/{TEMPLATE_FILE}"):
     print(f"Error: Template file {TEMPLATE_FILE} does not exist at {TEMPLATE_DIR}.")
-    exit(1)
 
 env = Environment(loader=FileSystemLoader(TEMPLATE_DIR))
 template = env.get_template(TEMPLATE_FILE)
