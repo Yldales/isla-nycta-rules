@@ -55,9 +55,9 @@ markdown_extensions:
 
 extra_javascript:
   - https://unpkg.com/tablesort/dist/tablesort.min.js
+  - javascripts/dinosaurs.js
   - javascripts/discord.js
   - javascripts/tablesort.js
-#   - javascripts/nycta.js
 #   - javascripts/pot.js
 
 extra_css:
