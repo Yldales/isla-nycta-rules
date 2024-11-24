@@ -2,7 +2,7 @@ name: ci
 
 on:
   repository_dispatch:
-    types: [trigger-workflow]
+    types: [json_profiles_updated]
   push:
     branches:
       - master 
