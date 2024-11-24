@@ -1,0 +1,58 @@
+---
+tags:
+- {{ type.title() }}
+- Tier {{ tier }}
+{%- if is_omnivore %}
+- Omnivore
+{%- endif %}
+{%- if rules|length > 0 %}
+- Has Rules
+{%- else %}
+- No Rules
+{%- endif %}
+---
+
+![{{ name }}](https://placehold.co/800x250?text={{ name }})
+
+## Informations
+
+- **Tier :** {{ tier }}
+- **Type :** {{ type.title() }} {% if type == "carnivores" %}🥩{% else %}🌿{% endif %} {% if is_omnivore %} + [Omnivore](omnivore.md){% endif %}
+- **Source :** {{ source }}
+- **Fandom :** [path-of-titans.fandom.com](https://path-of-titans.fandom.com/wiki/Special:Search?query={{ name }}&scope=internal&navigationSearch=true)
+
+## Limitations
+
+{% for limitation in limitations %}
+| Ages | Size | Species |
+|------|------|---------|
+{% for sub_limitation in limitation.limitations -%}
+| {{ sub_limitation.ages | join(', ') }} | {{ sub_limitation.size }} | {% if sub_limitation.species is not string and sub_limitation.species is iterable %}{{ sub_limitation.species | join(', ') }}{% else %}{{ sub_limitation.species }}{% endif %} |
+{% endfor -%}
+{% endfor %}
+
+## Rules
+
+{% if rules|length > 0 -%}
+{% for rule in rules -%}
+    - {{ rule.content }}
+{% if rule.subItems -%}
+    {% for sub_rule in rule.subItems -%}
+        - {{ sub_rule.content }}
+    {% if sub_rule.subItems -%}
+        {% for sub_sub_rule in sub_rule.subItems -%}
+            - {{ sub_sub_rule.content }}
+        {% endfor -%}
+    {% endif -%}
+    {% endfor -%}
+{% endif -%}
+{% endfor -%}
+{% else -%}
+No mandatory rules for the {{ name }}.
+{% endif %}
+
+## Behaviors
+
+{% for behavior in behaviors -%}
+- {{ behavior }}
+{% endfor %}
