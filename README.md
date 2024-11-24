@@ -14,6 +14,7 @@
 
 ## TODO
 1. generate_tiers_page.py to generate the page with a table of all dinosaurs and their tiers.
-2. Update generate_markdown_pages.py to insert the generated profiles pages into the navigation.
+2. Update generate_markdown_pages.py to insert the generated profiles pages into the navigation ( → build_navigation.py ?)
 3. Re-import CSS styles from the work-in-progress site.
-4. I forgor 💀
+4. Fix CSS issue in the search menu.
+5. I forgor 💀
