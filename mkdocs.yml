@@ -60,5 +60,5 @@ extra_javascript:
 #   - javascripts/nycta.js
 #   - javascripts/pot.js
 
-# extra_css:
-#   - stylesheets/extra.css
+extra_css:
+  - stylesheets/extra.css
