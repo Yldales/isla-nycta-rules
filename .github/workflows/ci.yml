@@ -39,9 +39,12 @@ jobs:
 
       - name: Generate markdown files
         run: |
+          ls -lhrt
           cd scripts
-          python generate_tiers.py
+          pip install -r requirements.txt
           python generate_dinosaurs.py
+          python generate_dinosaurs_schema.py
+          python generate_markdown_pages.py
 
       - run: pip install mkdocs-material 
 
