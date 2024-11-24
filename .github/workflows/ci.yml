@@ -46,7 +46,7 @@ jobs:
           python generate_dinosaurs_schema.py
           python generate_markdown_pages.py
         # TODO: Remove once troubleshooting is complete.
-        continue-on-error: true
+        # continue-on-error: true
 
       - name: Archive markdown files
         uses: actions/upload-artifact@v4
