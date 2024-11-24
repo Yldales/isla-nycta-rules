@@ -1,0 +1,244 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "tier": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "carnivores",
+        "herbivores"
+      ]
+    },
+    "is_omnivore": {
+      "type": "boolean"
+    },
+    "source": {
+      "type": "string"
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "operator": {
+            "type": "string",
+            "enum": [
+              "AND",
+              "OR"
+            ]
+          },
+          "limitations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "ages": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "Hatchling",
+                      "Juvenile",
+                      "Adolescent",
+                      "Adult",
+                      "Subadult"
+                    ]
+                  },
+                  "minItems": 0,
+                  "uniqueItems": true
+                },
+                "size": {
+                  "oneOf": [
+                    {
+                      "type": "string",
+                      "enum": [
+                        "Unlimited"
+                      ]
+                    },
+                    {
+                      "type": "integer",
+                      "minimum": 1
+                    }
+                  ]
+                },
+                "species": {
+                  "oneOf": [
+                    {
+                      "type": "string",
+                      "enum": [
+                        "Any"
+                      ]
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/dinosaurs"
+                      },
+                      "minItems": 1,
+                      "uniqueItems": true
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "ages",
+                "size"
+              ]
+            },
+            "minItems": 1
+          }
+        },
+        "required": [
+          "operator",
+          "limitations"
+        ]
+      },
+      "minItems": 0
+    },
+    "behaviors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "rules": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/listItem"
+      }
+    },
+    "compatibleSpecies": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/dinosaurs"
+      },
+      "uniqueItems": true
+    },
+    "incompatibleSpecies": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/dinosaurs"
+      },
+      "uniqueItems": true
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "name",
+    "tier",
+    "type",
+    "is_omnivore",
+    "source",
+    "limitations",
+    "behaviors",
+    "rules",
+    "compatibleSpecies",
+    "incompatibleSpecies",
+    "updated_at"
+  ],
+  "$defs": {
+    "listItem": {
+      "type": "object",
+      "properties": {
+        "content": {
+          "type": "string"
+        },
+        "subItems": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/listItem"
+          }
+        }
+      },
+      "required": [
+        "content"
+      ]
+    },
+    "dinosaurs": {
+      "type": "string",
+      "enum": [
+        "Achillobator",
+        "Acrocanthosaurus",
+        "Alioramus",
+        "Allosaurus",
+        "Carnotaurus",
+        "Ceratosaurus",
+        "Compsognathus",
+        "Concavenator",
+        "Daspletosaurus",
+        "Deinonychus",
+        "Deinosuchus",
+        "Dilophosaurus",
+        "Dimetrodon",
+        "Dracoviper",
+        "Eurhinosaurus",
+        "Giganotosaurus",
+        "Hatzegopteryx",
+        "Kaiwhekea",
+        "Kaprosuchus",
+        "Kelenken",
+        "Kryptops",
+        "Latenivenatrix",
+        "Maip",
+        "Megalania",
+        "Metriacanthosaurus",
+        "Moraquile",
+        "Mosasaurus",
+        "Noviana",
+        "Nyctatyrannus",
+        "Ocepechelon",
+        "Ophis",
+        "Pycnonemosaurus",
+        "Quetzalcoatlus",
+        "Rhamphorhynchus",
+        "Sachicasaurus",
+        "Sarcosuchus",
+        "Smilodon",
+        "Spinosaurus",
+        "Suchomimus",
+        "Susecdurus",
+        "Thalassodromeus",
+        "Tyrannosaurus",
+        "Utahraptor",
+        "Yutyrannus",
+        "Albertaceratops",
+        "Amargasaurus",
+        "Ampelosaurus",
+        "Anodontosaurus",
+        "Apatosaurus",
+        "Argentinosaurus",
+        "Barsboldia",
+        "Camptosaurus",
+        "Citipati",
+        "Deinocheirus",
+        "Dryosaurus",
+        "Eotriceratops",
+        "Iguanodon",
+        "Kentrosaurus",
+        "Lambeosaurus",
+        "Miragaia",
+        "Nasutoceratops",
+        "Pachycephalosaurus",
+        "Parasaurolophus",
+        "Psittacosaurus",
+        "Stegosaurus",
+        "Struthiomimus",
+        "Styracosaurus",
+        "Therizinosaurus",
+        "Yunnanosaurus"
+      ]
+    }
+  }
+}
