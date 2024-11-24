@@ -45,6 +45,10 @@ with open(DINOSAURS_PATH) as f:
 #==============================================================================#
 
 # Jinja2 template
+if not os.path.exists(TEMPLATE_FILE):
+    print(f"Error: Template file {TEMPLATE_FILE} does not exist.")
+    exit(1)
+
 env = Environment(loader=FileSystemLoader(TEMPLATE_DIR))
 template = env.get_template(TEMPLATE_FILE)
 
