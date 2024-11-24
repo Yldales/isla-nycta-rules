@@ -1,0 +1,60 @@
+/**
+* MORE COMPACT DESIGN FOR MKDOCS.
+*/
+
+h1 {
+    display: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0.5em 0 !important;
+    font-weight: bold !important;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+ul,
+li {
+    margin: 0 !important;
+    list-style-position: inside;
+    list-style-type: square !important;
+    text-align: justify;
+}
+
+.md-typeset__table {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/**
+* TAGS.
+*/
+
+a.md-tag {
+    border-radius: 2px !important;
+}
+
+/**
+* EMOJIS PREFIXES FOR H1 HEADINGS.
+*/
+
+#informations:before {
+    content: "📚 ";
+}
+
+#limitations:before {
+    content: "🚫 ";
+}
+
+#behaviors:before {
+    content: "🦖 ";
+}
+
+#rules:before {
+    content: "📜 ";
+}
