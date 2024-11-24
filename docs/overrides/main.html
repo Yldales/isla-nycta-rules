@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  <link rel="manifest" href="https://yldales.github.io/isla-nycta-rules/manifest.webmanifest" />
+{% endblock %}
+
+{% block tabs %}
+{{ super() }}
+<div id="md-header-nycta">
+  <div id="nycta-reboot-timer"></div>
+  <div id="nycta-map-cycle"></div>
+</div>
+{% endblock %}

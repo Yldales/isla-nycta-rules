@@ -25,7 +25,7 @@ theme:
     - navigation.tabs
     # ...
     - content.tooltips
-  # custom_dir: overrides
+  custom_dir: overrides
 
 plugins:
   - search
