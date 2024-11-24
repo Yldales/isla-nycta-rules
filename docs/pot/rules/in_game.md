@@ -1,0 +1,44 @@
+-**NO** use of exploits or any game breaking mechanics, including, but not limited to:
+    - Making player bodies or bushes decay faster by pulling off and dropping multiple chunks, or filling a nest with food and abandoning/rebuilding it. 
+    - Sticking your head through rocks or logs to bite at something you cannot realistically see.
+- **NO** killing on sight or killing for sport (KOS/KFS). Only kill what you plan to eat.
+        - This includes randomly bone-breaking, or Debuffing players for sport. Rhamphy being the exception as they have a passive that's removed upon delatching. 
+        - Holding a chunk and waiting for a body to despawn just to hunt again. Due to body timers, this will be reviewed on a case by case basis.
+        - Waiting for someone's body to despawn just to attack them. Either challenge them for the body, or hunt something else. 
+- Hunts cannot begin during the 1 minute restart timer. Please be aware of the restart warnings.
+- Trophies belong to the pack/herd or individual that made the kill and can be stolen. Thieves can be attacked without warning until they are dead or the trophy is dropped. These can only be given to individuals in your herd/pack.
+- **NO** targeting/killing non-participating bystanders to stop a confrontation.
+    - This includes targeting/killing juveniles and hatchlings not participating in the fight, as well as challenging another individual for a body to avoid being hunted. 
+    - Exception to this rule is if you are being attacked by Tier 0. You can choose to ignore them and hunt, though beware! They can pester you off of the body if they don't want to share.
+- **NO** targeting specific players, or immediately returning to revenge attack after dying/switching characters. 
+    - If you died, you cannot attack the one(s) that assisted in killing you for 30 minutes, but may hunt others in the area.
+    - If you switched characters __**for any reason**__, you must be passive to those in the area you were in previously for 30 minutes.
+    - A restart does ***not*** restart these timers. 
+- **NO** fleeing into home caves <:homecave:1047043842593009694> while being chased or hunted, nor camping outside of home caves <:homecave:1047043842593009694> waiting for people to enter or leave to attack them. 
+- **NO** baiting; including but not limited to: 
+    - Passively-aggressive actions that will prompt aggression from others. IE: ignoring Aggressive Calls <:potaggressivecall:1047043843771604994> during challenges or while in another's personal space, spam calling while having the 30 min timer, etc... 
+    - Inviting someone to a group to see their location so they can be killed.
+    - Inviting someone with a waystone <:waystone:1047043840537788488> so they can be killed.
+    - Randomly attacking someone in your group; remove them from the group or leave group and Aggressive Call <:potaggressivecall:1047043843771604994> them __**at least twice**__ first to give them a chance to run.
+    - Asking someone to kill you, then turning around and killing them. If you want to die in a fight, make that clear.
+- **NO** giving out the named locations of individuals or groups. IE "Cerato or cerato pack in Crater" 
+- **NO** protecting others outside of your own species or pack.
+    - Carnivores CANNOT help other carnivores outside of their pack or species in any way, this includes waystoning <:waystone:1047043840537788488>. 
+    - Achillobator raptor packs and Rhamphorhynchus minions are the exceptions to this rule. 
+    - Herbivores of different species can herd together, but cannot protect one another in a hunt, unless Meat Shielding https://discord.com/channels/331847112486551552/1047044226472480818/1052104758816669726.
+    - Tier 0 can be tolerated by everyone. Meat Shielding rules apply. 
+- **NO** combat logging. This means logging out, waystoning or using `/respawn` while you are being hunted. To log out, you must escape from the predator (they lost you/obtained a body down).
+- It is required to follow group limits and mandatory behaviors set in the profile channels (<#935275908951064586>, <#935275510286667816>), all other profile behaviors are optional and for flavor.
+- Hatchlings, juveniles and adolescents have an unlimited herd/pack limit unless stated otherwise in the profiles. Once one progresses into Sub-Adult they must abide by herd/pack limits.
+- If your pack/herd is full, any babies that grow to Sub-Adult must be kicked out unless stated otherwise in the profiles.
+- Only characters that can eat meat and bushes are able to carry around their chunks.
+- Friendly Calling <:potfriendlycall:1047043846577594368> doesn't always mean friendship. Aggressive Calling <:potaggressivecall:1047043843771604994>  and mock-biting can be seen as a "get away" warning, or an attempt to pick a fight. Use with caution. 
+- Spam calling can get you threatened and attacked, even by your own group.
+    - Aggressive Call <:potaggressivecall:1047043843771604994> __**at least twice**__ to warn them to stop spam-calling. If they don’t, you can attack them.
+    - If you're actively trying to get away from the spam caller and they keep following you for an extended period of time, this is considered griefing and is reportable.
+    - If a group member is spam calling, Aggressive Call <:potaggressivecall:1047043843771604994> them repeatedly AND tell them in group chat to stop. If they don’t, you can attack them.
+    - A body drop stops the fight.
+    - Switching playables to continue to spam call is griefing and a strikeable offense. 
+- Grappling abilities can ONLY be used for combat. 
+    - Using a grappling ability within another's personal space can be considered aggression even if it causes no damage. Use at your own risk. 
+    - Mixed species taxiing is a break of the personal space/helping other characters rule. Compsognathus, Rhamphorhynchus and Citipati are the exceptions and can be a backpack, or steal babies, at their own risk.

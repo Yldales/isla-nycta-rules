@@ -1,0 +1,21 @@
+- All mandatory behaviors and pack limits for every herbivore can be found in the <#935275908951064586> channel.
+- Herbivorous Omnivores are classified as Herbivores and must follow Herbivore rules. 
+    - They can eat from preplaced bodies, though if a Carnivore comes to eat, the omnivore must move away to let it.
+    - They may take a chunk with them and return to the corpse once the carnivore is away from it.
+- Herbivores must show aggression to Carnivores in their personal space. Herbivores can protect their personal space from other Herbivores as well if they so choose, but are not required to unless its profile mandatory.
+    - Your personal space is equal to one of your character's body lengths around you (nose to tail tip). 
+    - If something is lingering in your personal space, you can Aggressive Call <:potaggressivecall:1047043843771604994> it at least twice and if it does not leave, you may attack and chase it off but if it Distress Calls <:potdistresscall:1047043844786638880> or runs away, let it escape.
+    - Herbivores should not go out of their way to make another character enter their personal space just to be aggressive towards them.
+    - If a carnivore makes an attack in the herbivores personal space, it can be considered a hunt, even if it wasn't the intended target.
+- Herbivores **CANNOT** guard a body down or meat chunks, and cannot prevent carnivores from eating or accessing them.
+    - Only exceptions are a body being left near a bush being actively guarded, near nests, or in a lake claimed by Deinocheirus. The carnivore **MUST** be allowed to return to it to eat or take a chunk before being Aggressive Called <:potaggressivecall:1047043843771604994>﻿away. 
+- Herbivores of different species are allowed to herd together as long as the individual herd limits are followed, and different species do not protect each other -- the exception being meat-shielding https://discord.com/channels/331847112486551552/1047044226472480818/1052104758816669726.
+- Herbivores are allowed to use another herbivore of different species same-sized or larger as a meat-shield when being hunted.
+    - **__Meat-shielding:__**  Running to an eligible herbivore you can herd with to use them as a barrier between you and a character hunting you. The meat-shield would protect it's personal space, inadvertently protecting you while you're in it.
+    - An eligible herbivore is the same/higher tier than you, or similar/larger in height and weight as you. 
+    - Look out! A meat-shield could choose to leave you behind, or threaten you off.
+    - Herbivores **CANNOT** run to herbivores outside of their species or herd to help them fight. 
+    - Herbivores **CAN** move closer to use Call Abilities for herd mates. While this puts them at risk, they cannot help a different species fight unless meat-shield rules are being followed.
+    - Your personal space is equal to one of your character's body lengths around you (nose to tail tip). 
+    - If a carnivore makes an attack in the herbivores personal space, it can be considered a hunt, even if it wasn't the intended target.
+    - Tier 0 playables can be tolerated nearby and meat shielded by herbivores at their own risk.

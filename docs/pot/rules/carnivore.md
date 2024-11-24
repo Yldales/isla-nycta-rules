@@ -1,0 +1,25 @@
+- All mandatory behaviors and pack limits for every carnivore can be found in the <#935275510286667816> channel.
+- Carnivorous Omnivores are classified as Carnivores and must follow Carnivore rules. 
+- Carnivores must be aggressive to other characters outside of their pack that are near their claimed body down, or in their personal space; this includes when eating from a preplaced corpse.
+    - Tier 0 playables can be tolerated nearby and meat shielded by carnivores at their own risk. 
+    - Your personal space is equal to one of your character's body lengths around you (nose to tail tip). 
+    - If you Aggressive Call <:potaggressivecall:1047043843771604994> something near your claimed body down, or within your personal space multiple times and it does not leave, you may attack and chase it off but if it Distress Calls <:potdistresscall:1047043844786638880>or runs away, let it escape if you're not hunting it.
+- **ONLY** player bodies count as a body down.
+    - Hunts **CANNOT** take place if there is a visible, unclaimed body down, or one that has Tier 0 playables around it; it **must** first be eaten or claimed by another party.
+    - As Tier 0 are tolerated and cannot claim or challenge for bodies, it can be shared with them.
+    - Carnivores **MUST **Aggressive Call <:potaggressivecall:1047043843771604994>﻿ them away if they don't want to share the body. If they don't leave, THEN they can be attacked. 
+    - Be cautious! Once threatened, they can fight back and Swarm until they're dead, retreated, or have annoyed away their target.
+    - Those annoyed away can either return to try to share the body, retake it, or challenge for a different one, as a hunt cannot take place until the body is gone, or claimed by non-Tier 0 playables. 
+    - If hunting a Tier 0, that body must be eaten before hunting another one. Killing multiples without stopping to eat them one at a time is KOS and reportable.
+- Carnivores may claim ONE body down. If multiple are in the same area, they can claim all that are within the claiming carnivore's personal space.
+    - Your personal space is equal to one of your character's body lengths around you (nose to tail tip). 
+    - Eating from or guarding a player body down is considered claiming it.
+- **ONLY** tier 0, tier 1 and hatchling/juvenile carnivores are allowed to attempt to steal from a claimed body down at their own risk.
+    - Stealing is: Taking a meat chunk from a known claimed body and running away with it to eat. 
+    - Stealing is: Eating from someone's body while the owner(s) are away from it (drinking, questing etc.) and running away when the owner(s) return.
+    - If the owner catches you it can result in you being attacked without warning.
+    - Tier 1 Scavengers: If you wish to remain at that body, you MUST challenge for it. 
+    - If something has stolen meat from your claimed body and is making an obvious attempt to leave, let it escape.
+- Carnivores are allowed to leave their claimed body down as long as they do not hunt in or around the area until it has despawned.
+    - If you leave your claimed body down and it gets claimed by another carnivore, you MUST challenge and attempt to get it back before hunting in the area.
+    - You can leave a smaller body down to challenge for a bigger one, but cannot return to that old body down unless you lose the challenge, or the new body down becomes unavailable to you.

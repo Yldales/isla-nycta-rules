@@ -1,0 +1,29 @@
+- For all challenges, a member from one side must make an Aggressive Call <:potaggressivecall:1047043843771604994>  to initiate which must be accepted with an Aggressive Call <:potaggressivecall:1047043843771604994>. If the challenged continues eating after the call is completed, or multiple Aggressive Calls <:potaggressivecall:1047043843771604994> are not answered, the challenger can attack.
+- Third-party interference is **NOT** allowed for __body__ challenges **ONLY**, not even by Tier 0. Wait for the challenge to conclude, and then challenge the winner or hunt the loser.
+- **BODY CHALLENGE:** Carnivores may challenge for another's claimed player body. Preplaced corpses cannot be challenged for. 
+    - Everyone on one side must Distress Call <:potdistresscall:1047043844786638880> and/or make an obvious attempt to leave, or a body must drop for a fight to end. 
+    - Those who forfeit by retreating cannot be targeted by contestants during the challenge.
+    - Should a pack mate die in a fight, the body is considered unclaimed and must be challenged for when necessary. If they died during a challenge over a body, after winning claim to one body, you cannot challenge for the second unless they are within body length of each other.
+    - The loser(s) cannot re-challenge the winner(s) for that body.
+    - As Tier 0 are tolerated, bodies can be shared with them.
+    - If you don't want them near, they have to be Aggressive Called <:potaggressivecall:1047043843771604994> away.
+    - Be cautious! Once threatened, they can fight back and Swarm until they're dead, retreated, or have annoyed away their target.
+    - Those annoyed away can either return to try to share the body, retake it, or challenge for a different one, as a hunt cannot take place until the body is gone, or claimed by non-Tier 0 playables. 
+- Challengers/challenged and their group members cannot eat, chunk, or steal from the body while their packmates are mid-contest, even if they have forfeited or choose not to participate.
+    - Juvis, Tier 0 and Tier 1 are exempt from this and may steal freely during body challenges.
+- **LAKE CHALLENGE:** **Only** Semi-aquatics and aquatics are able to challenge other characters for rights to reside in a lake and rights to the aquatic resources in and on their shoreline.
+    - Overly large lakes cannot be held as territory or challenged for, but personal space rules still apply. Example lakes are: Great Lake, Grassland Lake, Big Quill Lake, Black-Water Bayou, Hunter's Thicket, Titan's Pass, Green Hill Lake, southern Green Valley lake, southern Triad Falls lake, as well as the two largest lakes of Spined Lizard Lagoon.
+    - Only one species can claim a water source and can allow/deny who remains there. They must follow the "Mandatory" section of their profile. IE: Spino will not let other spino remain in the same claimable water source. 
+    - Challenge at your own risk! If there is no body present, a challenge can easily become a hunt even if someone forfeits.
+    - A member from one side must make an Aggressive Call  <:potaggressivecall:1047043843771604994> to initiate which must be accepted with an Aggressive Call <:potaggressivecall:1047043843771604994>.
+    - Everyone on one side must Distress Call <:potdistresscall:1047043844786638880> and/or make an obvious attempt to leave for a challenge over lake territory to end. 
+    - Those who forfeit by retreating cannot be targeted by contestants during the challenge.
+    - Land characters are allowed to defend their right to remain -- or to the lake's resources -- if challenged. 
+    - The loser cannot return to re-challenge, or reenter the water for any reason, until 30 minutes have passed. They can return to drink before that at the risk of a forfeit being ignored. A restart does ***not*** restart this timer.
+- **HERBIVORE CHALLENGE:** Herbivores are allowed to be aggressive to other herbivores for food, herding rights, bull fights, and mating rights if they so choose.
+    - Be careful! The whole herd can participate to protect their food source regardless of species.
+    - A member from one side must make an Aggressive Call <:potaggressivecall:1047043843771604994>  to initiate which must be accepted with an Aggressive Call <:potaggressivecall:1047043843771604994> 
+    - Everyone on one side must Distress Call <:potdistresscall:1047043844786638880>  and/or make an obvious attempt to leave for the fight to end. 
+    - Those who forfeit by retreating cannot be targeted by contestants during the challenge.
+    - The fight ends when everyone on one side has forfeit. 
+    - The loser(s) cannot re-challenge the winner(s) until 30 minutes have passed. A restart does ***not*** restart this timer.
