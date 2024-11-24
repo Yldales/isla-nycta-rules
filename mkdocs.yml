@@ -58,7 +58,7 @@ extra_javascript:
   - javascripts/dinosaurs.js
   - javascripts/discord.js
   - javascripts/tablesort.js
-#   - javascripts/pot.js
+  - javascripts/nycta.js
 
 extra_css:
   - stylesheets/extra.css
