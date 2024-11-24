@@ -18,8 +18,8 @@ h5 {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-ul,
-li {
+.md-content ul,
+.md-content li {
     margin: 0 !important;
     list-style-position: inside;
     list-style-type: square !important;
