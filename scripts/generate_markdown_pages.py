@@ -28,6 +28,7 @@ if not os.path.exists(SCHEMA_PATH):
     exit(1)
 
 with open(SCHEMA_PATH) as schema_file:
+    print(f"Loading schema file {SCHEMA_PATH}.")
     schema = json.load(schema_file)
 
 # ...
@@ -36,6 +37,7 @@ if not os.path.exists(DINOSAURS_PATH):
     exit(1)
 
 with open(DINOSAURS_PATH) as f:
+    print(f"Loading dinosaurs file {DINOSAURS_PATH}.")
     dinosaurs = json.load(f)
 
 #==============================================================================#
