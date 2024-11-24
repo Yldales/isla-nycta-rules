@@ -1,4 +1,4 @@
--**NO** use of exploits or any game breaking mechanics, including, but not limited to:
+- **NO** use of exploits or any game breaking mechanics, including, but not limited to:
     - Making player bodies or bushes decay faster by pulling off and dropping multiple chunks, or filling a nest with food and abandoning/rebuilding it. 
     - Sticking your head through rocks or logs to bite at something you cannot realistically see.
 - **NO** killing on sight or killing for sport (KOS/KFS). Only kill what you plan to eat.
