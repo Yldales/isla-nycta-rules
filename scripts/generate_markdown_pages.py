@@ -15,8 +15,8 @@ SCHEMA_PATH = 'schemas/nycta.schema.json'
 DINOSAURS_PATH = 'schemas/dinosaurs.schema.json'
 TEMPLATE_DIR = 'templates'
 TEMPLATE_FILE = 'templates/profile.html'
-JSON_FILES_DIR = '../isla-nycta-data/dinosaurs'
-OUTPUT_DIR = '../public_docs/docs/pot'
+JSON_FILES_DIR = '../isla-nycta-json/dinosaurs'
+OUTPUT_DIR = '../docs/pot'
 
 #==============================================================================#
 # REQUIRED FILES
