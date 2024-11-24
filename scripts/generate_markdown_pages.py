@@ -24,20 +24,20 @@ OUTPUT_DIR = '../docs/pot'
 
 # ...
 if not os.path.exists(SCHEMA_PATH):
-    print(f"Error: Schema file {SCHEMA_PATH} does not exist.")
+    print(f"Error: Schema file {SCHEMA_PATH} does not exist at {SCHEMA_PATH}.")
     exit(1)
 
 with open(SCHEMA_PATH) as schema_file:
-    print(f"Loading schema file {SCHEMA_PATH}.")
+    print(f"Loading schema file {SCHEMA_PATH} from {SCHEMA_PATH}.")
     schema = json.load(schema_file)
 
 # ...
 if not os.path.exists(DINOSAURS_PATH):
-    print(f"Error: Dinosaurs file {DINOSAURS_PATH} does not exist.")
+    print(f"Error: Dinosaurs file {DINOSAURS_PATH} does not exist at {DINOSAURS_PATH}.")
     exit(1)
 
 with open(DINOSAURS_PATH) as f:
-    print(f"Loading dinosaurs file {DINOSAURS_PATH}.")
+    print(f"Loading dinosaurs file {DINOSAURS_PATH} from {DINOSAURS_PATH}.")
     dinosaurs = json.load(f)
 
 #==============================================================================#
@@ -46,7 +46,7 @@ with open(DINOSAURS_PATH) as f:
 
 # Jinja2 template
 if not os.path.exists(TEMPLATE_FILE):
-    print(f"Error: Template file {TEMPLATE_FILE} does not exist.")
+    print(f"Error: Template file {TEMPLATE_FILE} does not exist at {TEMPLATE_DIR}.")
     exit(1)
 
 env = Environment(loader=FileSystemLoader(TEMPLATE_DIR))
