@@ -1,6 +1,8 @@
 name: ci 
 
 on:
+  repository_dispatch:
+    types: [trigger-workflow]
   push:
     branches:
       - master 
