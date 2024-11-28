@@ -74,7 +74,7 @@ nav:
 
       - "🦖 Home": "pot/index.md"
 
-      - "📊 Tiers 🚧": "pot/tiers.md"
+      - "📊 Tiers": "pot/tiers.md"
 
       - "📚 Rules":
           - "General": "pot/rules/general.md"
