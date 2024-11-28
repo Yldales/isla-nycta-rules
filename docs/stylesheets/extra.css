@@ -2,15 +2,15 @@
 * MORE COMPACT DESIGN FOR MKDOCS.
 */
 
-h1 {
+.md-content h1 {
     display: none !important;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
+.md-content h1,
+.md-content h2,
+.md-content h3,
+.md-content h4,
+.md-content h5 {
     margin: 0.5em 0 !important;
     font-weight: bold !important;
     padding: 10px;
@@ -18,21 +18,14 @@ h5 {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-/* .md-content ul,
-.md-content li {
-    margin: 0 !important;
-    list-style-position: inside;
-    list-style-type: square !important;
-    text-align: justify;
-} */
 
-.md-typeset__table {
+.md-content .md-typeset__table {
     padding: 0 !important;
     margin: 0 !important;
     width: 100% !important;
 }
 
-.md-typeset__scrollwrap {
+.md-content .md-typeset__scrollwrap {
     margin: 0 !important;
 }
 
