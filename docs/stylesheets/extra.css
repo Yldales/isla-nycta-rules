@@ -38,8 +38,55 @@
 * TAGS.
 */
 
-a.md-tag {
-    border-radius: 2px !important;
+.tier-wrapper {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    padding: 0px 4px;
+    word-break: break-all;
+}
+
+.tier-name {
+    padding: 0px 4px;
+}
+
+.tier-badge {
+    align-items: center;
+    border-radius: 20%;
+    display: inline-flex;
+    font-size: small;
+    height: 1em;
+    justify-content: center;
+    width: 1em;
+}
+
+.tier-0 {
+    background-color: #7f8c8d;
+    color: #111111;
+}
+
+.tier-1 {
+    background-color: #3498db;
+    color: #111111;
+}
+
+.tier-2 {
+    background-color: #1abc9c;
+    color: #111111;
+}
+
+.tier-3 {
+    background-color: #f1c40f;
+    color: #111111;
+}
+
+.tier-4 {
+    background-color: #e67e22;
+    color: #111111;
+}
+
+.tier-5 {
+    background-color: #e74c3c;
+    color: #111111;
 }
 
 /**
