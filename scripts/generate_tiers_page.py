@@ -3,7 +3,7 @@ import json
 import sys
 
 INPUT_DIRECTORY = '../isla-nycta-json/dinosaurs'
-OUTPUT_FILE = os.path.join('docs', 'pot', 'tiers.md')
+OUTPUT_FILE = os.path.join('../', 'docs', 'pot', 'tiers.md')
 
 def generate_markdown(dinosaurs):
     markdown = "# Dinosaurs Tiers\n\n"
