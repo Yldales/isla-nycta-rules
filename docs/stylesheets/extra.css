@@ -90,3 +90,33 @@ div.md-copyright {
 div.md-copyright a {
     color: #4051b5 !important;
 }
+
+/**
+* NYCTA HEADER
+*/
+
+/**
+* Custom header
+*/
+
+div#md-header-nycta {
+    background-color: hsl(231, 20%, 20%);
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    div#md-header-nycta {
+        flex-direction: row;
+        gap: 10px;
+    }
+}
+
+div#md-header-nycta>div {
+    font-size: 1.25em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
