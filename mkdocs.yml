@@ -71,22 +71,22 @@ nav:
   # - "🏠 Home": "index.md"
 
   - "🦖 Path of Titans":
-  
+
       - "🦖 Home": "pot/index.md"
 
       - "📊 Tiers 🚧": "pot/tiers.md"
 
       - "📚 Rules":
           - "General": "pot/rules/general.md"
-          - "Kicks & Bans": "pot/rules/kicks_bans.md"
+          - "Kicks & Bans": "pot/rules/kicks_and_bans.md"
           - "In Game": "pot/rules/in_game.md"
           - "Carnivore": "pot/rules/carnivore.md"
           - "Herbivore": "pot/rules/herbivore.md"
-          - "Omnivore": "pot/rules/omnivore.md"
-          - "Tiers 0": "pot/rules/tiers_0.md"
+          - "Tiers 0": "pot/rules/tiers_0_rules.md"
           - "Hunts": "pot/rules/hunts.md"
+          - "Nesting Rules": "pot/rules/nesting_rules.md"
           - "Challenges": "pot/rules/challenges.md"
-          - "DM/FFA": "pot/rules/dm_ffa.md"
+          - "DM/FFA": "pot/rules/dm_and_ffa.md"
 
       - "🥩 Carnivores":
           - Tier 0:
