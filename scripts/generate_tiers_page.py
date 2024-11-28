@@ -15,23 +15,19 @@ def generate_markdown(dinosaurs):
     
     return markdown
 
-def main():
-    dinosaurs = []
-    
-    for filename in os.listdir(INPUT_DIRECTORY):
-        if filename.endswith('.json'):
-            try:
-                with open(os.path.join(INPUT_DIRECTORY, filename), 'r') as file:
-                    dinosaur = json.load(file)
-                    dinosaurs.append(dinosaur)
-            except (json.JSONDecodeError, IOError) as e:
-                print(f"Error reading {filename}: {e}", file=sys.stderr)
-    
-    markdown_content = generate_markdown(dinosaurs)
-    
-    os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
-    with open(OUTPUT_FILE, 'w') as output_file:
-        output_file.write(markdown_content)
+dinosaurs = []
 
-if __name__ == "__main__":
-    main()
+for filename in os.listdir(INPUT_DIRECTORY):
+    if filename.endswith('.json'):
+        try:
+            with open(os.path.join(INPUT_DIRECTORY, filename), 'r') as file:
+                dinosaur = json.load(file)
+                dinosaurs.append(dinosaur)
+        except (json.JSONDecodeError, IOError) as e:
+            print(f"Error reading {filename}: {e}", file=sys.stderr)
+
+markdown_content = generate_markdown(dinosaurs)
+
+os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
+with open(OUTPUT_FILE, 'w') as output_file:
+    output_file.write(markdown_content)
