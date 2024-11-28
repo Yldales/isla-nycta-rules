@@ -18,15 +18,20 @@
     background-color: rgba(0, 0, 0, 0.2);
 }
 
+/**
+* TABLES.
+*/
 
-.md-content .md-typeset__table {
-    padding: 0 !important;
-    margin: 0 !important;
-    width: 100% !important;
+.md-typeset__table {
+    width: 100%;
 }
 
-.md-content .md-typeset__scrollwrap {
-    margin: 0 !important;
+.md-typeset__table table:not([class]) {
+    display: table
+}
+
+.md-typeset__scrollwrap {
+    margin: 0px !important;
 }
 
 /**
