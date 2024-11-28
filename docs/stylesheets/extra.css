@@ -77,3 +77,16 @@ li {
 #rules:before {
     content: "📜 ";
 }
+
+/**
+* COPYRIGHT.
+*/
+
+div.md-copyright {
+    width: 100%;
+    text-align: center;
+}
+
+div.md-copyright a {
+    color: #4051b5 !important;
+}
