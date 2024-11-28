@@ -1,1 +1,1 @@
-Welcome 👀
+Welcome 👀 You may want to go [here](https://yldales.github.io/isla-nycta-rules/pot/index.html).
