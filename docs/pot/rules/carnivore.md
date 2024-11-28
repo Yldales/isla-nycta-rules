@@ -1,3 +1,5 @@
+## Carnivore Rules
+
 - All mandatory behaviors and pack limits for every carnivore can be found in the <#935275510286667816> channel.
 - Carnivorous Omnivores are classified as Carnivores and must follow Carnivore rules. 
 - Carnivores must be aggressive to other characters outside of their pack that are near their claimed body down, or in their personal space; this includes when eating from a preplaced corpse.

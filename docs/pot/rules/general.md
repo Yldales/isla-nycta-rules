@@ -1,3 +1,5 @@
+## General Rules
+
 !!! warning
     Attempting to abuse loopholes in these rules may still result in punishment. We expect you to use common sense when playing here, as the rules would have to be 5 pages long if we clarified every grey area. If you have questions on if something is allowed or not, contact a staff member or don't do it. Website Based Rules ~~and Profiles:~~ https://isla-nycta.com/pot-rules
 

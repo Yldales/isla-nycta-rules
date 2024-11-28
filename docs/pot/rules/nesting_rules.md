@@ -1,3 +1,5 @@
+## Nesting Rules
+
 - No sending out random invites, invites just to kill the individual, or false invites. IE: Someone asking for an allo and getting a compy egg. 
 - You're allowed to adopt what your character can pack/herd with as per their profile. 
 - Nests can be attacked, though be aware that you can be attacked in return without warning. **Currently nests are invulnerable, but this still applies.**

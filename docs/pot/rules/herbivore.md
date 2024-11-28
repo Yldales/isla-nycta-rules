@@ -1,3 +1,5 @@
+## Herbivore Rules
+
 - All mandatory behaviors and pack limits for every herbivore can be found in the <#935275908951064586> channel.
 - Herbivorous Omnivores are classified as Herbivores and must follow Herbivore rules. 
     - They can eat from preplaced bodies, though if a Carnivore comes to eat, the omnivore must move away to let it.

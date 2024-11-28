@@ -1,3 +1,5 @@
+## Hunts Rules
+
 - Distress Calls <:potdistresscall:1047043844786638880> **DO NOT** matter in a hunt, kill or be killed.
 - Aggressive Calls <:potaggressivecall:1047043843771604994> do not need to be made before hunting.
 - Hunts **CANNOT** take place if there is a visible, unclaimed body down, or one that has Tier 0 playables around it; it **must** first be eaten or claimed by another party.

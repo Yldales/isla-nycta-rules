@@ -1,3 +1,6 @@
+## Challenges
+
+
 - For all challenges, a member from one side must make an Aggressive Call <:potaggressivecall:1047043843771604994>  to initiate which must be accepted with an Aggressive Call <:potaggressivecall:1047043843771604994>. If the challenged continues eating after the call is completed, or multiple Aggressive Calls <:potaggressivecall:1047043843771604994> are not answered, the challenger can attack.
 - Third-party interference is **NOT** allowed for __body__ challenges **ONLY**, not even by Tier 0. Wait for the challenge to conclude, and then challenge the winner or hunt the loser.
 - **BODY CHALLENGE:** Carnivores may challenge for another's claimed player body. Preplaced corpses cannot be challenged for. 

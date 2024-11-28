@@ -1,3 +1,5 @@
+## Tier 0 Rules
+
 Keep in mind that by playing a Tier 0, you are risking death. They are the lowest on the food chain, easily killable by just being trampled and their body only lasts for 15 seconds. Reports on Tier 0 playables will be handled on case by case basis to see if you were intentionally or accidentally killed. To make up for how easily killed they are, their growth is shortened considerably and they have enough stamina/speed to dart across the map. 
 
 - Tier 0 playables can be tolerated by all. "Can be" doesn't mean they "will be", though!
