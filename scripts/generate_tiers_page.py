@@ -11,7 +11,7 @@ def generate_markdown(dinosaurs):
     markdown += "|------|---------------|---------------|\n"
     
     for dino in sorted(dinosaurs, key=lambda x: x['tier']):
-        markdown += f"| {dino['tier']} | {dino['name']} | {dino['diet']} |\n"
+        markdown += f"| {dino['tier']} | {dino['name'].title()} | {dino['type'].title()} |\n"
     
     return markdown
 
