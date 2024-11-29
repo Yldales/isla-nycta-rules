@@ -6,7 +6,12 @@ INPUT_DIRECTORY = '../isla-nycta-json/dinosaurs'
 OUTPUT_FILE = os.path.join('../', 'docs', 'pot', 'tiers.md')
 
 def generate_markdown(dinosaurs):
-    markdown = "# Dinosaurs Tiers\n\n"
+    markdown = ""
+    markdown += "---\n"
+    markdown += "search:\n"
+    markdown += "  exclude: true\n"
+    markdown += "---\n\n"
+    markdown += "# Dinosaurs Tiers\n\n"
     markdown += "| Tier | Name | Diet |\n"
     markdown += "|------|---------------|---------------|\n"
     
