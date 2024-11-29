@@ -24,5 +24,23 @@
     var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
     g.async = true; g.src = u + 'not_matomo.js'; s.parentNode.insertBefore(g, s);
   })();
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var oldPushState = history.pushState;
+    history.pushState = function () {
+      oldPushState.apply(this, arguments);
+      _paq.push(['setCustomUrl', window.location.pathname + window.location.hash]);
+      _paq.push(['setDocumentTitle', document.title]);
+      _paq.push(['trackPageView']);
+    };
+
+    _paq.push(['trackPageView']);
+
+    window.addEventListener('popstate', function () {
+      _paq.push(['setCustomUrl', window.location.pathname + window.location.hash]);
+      _paq.push(['setDocumentTitle', document.title]);
+      _paq.push(['trackPageView']);
+    });
+  });
 </script>
 {% endblock %}
