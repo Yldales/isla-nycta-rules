@@ -42,7 +42,7 @@ document$.subscribe(() => {
       { week: 2, description: "🔥 The forest has some fire in the middle and a lava pond in crater's water." },
       { week: 3, description: "🌋 Crater is desolate of any forest while the lava pond still remains." },
       { week: 4, description: "🌱 Crater is filled with some redwoods trees in a sign of the forest recovering." },
-      { week: 5, description: "⏳ Waiting for the next month's event to start." }
+      { week: 5, description: "⏳ Soon, a new cycle will begin." }
     ];
 
     const currentWeek = getCurrentWeekOfMonth(now);
