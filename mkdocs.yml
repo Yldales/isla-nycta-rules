@@ -57,8 +57,9 @@ extra_javascript:
   - https://unpkg.com/tablesort/dist/tablesort.min.js
   - javascripts/dinosaurs.js
   - javascripts/discord.js
-  - javascripts/tablesort.js
   - javascripts/nycta.js
+  - javascripts/tablesort.js
+  - javascripts/visitors.js
 
 extra_css:
   - stylesheets/extra.css
