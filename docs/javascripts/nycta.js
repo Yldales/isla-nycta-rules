@@ -1,16 +1,24 @@
 document$.subscribe(() => {
+  const HOUR_MS = 3600000;
   const MINUTE_MS = 60000;
   const SECOND_MS = 1000;
-  const RESTART_TIMES = [
-    1728720000, 1728734400, 1731603600, 1728763200, 1728777600, 1728792000
-  ].map(timestamp => new Date(timestamp * 1000));
+  const RESTART_HOURS = [10, 14, 18, 22, 2, 6];
 
   function formatTime(time) {
     return time.toString().padStart(2, '0');
   }
 
   function getNextRestartTime(now) {
-    return RESTART_TIMES.find(time => time > now) || RESTART_TIMES[0];
+    const target = new Date(now);
+    const currentHour = now.getHours();
+    const nextRestartHour = RESTART_HOURS.find(hour => hour > currentHour) || RESTART_HOURS[0];
+    
+    if (nextRestartHour <= currentHour) {
+      target.setDate(target.getDate() + 1);
+    }
+    
+    target.setHours(nextRestartHour, 0, 0, 0);
+    return target;
   }
 
   function updateCountdown() {
@@ -18,8 +26,8 @@ document$.subscribe(() => {
     const target = getNextRestartTime(now);
     const timeDiff = target - now;
 
-    const hours = Math.floor(timeDiff / (60 * 60 * 1000));
-    const minutes = Math.floor((timeDiff % (60 * 60 * 1000)) / MINUTE_MS);
+    const hours = Math.floor(timeDiff / HOUR_MS);
+    const minutes = Math.floor((timeDiff % HOUR_MS) / MINUTE_MS);
     const seconds = Math.floor((timeDiff % MINUTE_MS) / SECOND_MS);
 
     const formattedTime = `${formatTime(hours)}:${formatTime(minutes)}:${formatTime(seconds)}`;
