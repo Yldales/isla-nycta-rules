@@ -1,0 +1,4 @@
+Sitemap: https://yldales.github.io/isla-nycta-rules/sitemap.xml
+
+User-agent: *
+Disallow:

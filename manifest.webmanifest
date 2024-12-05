@@ -1,0 +1,28 @@
+{
+    "name": "Isla Nycta Rules & Profiles",
+    "short_name": "isla-nycta-rules-profiles",
+    "start_url": "https://yldales.github.io/isla-nycta-rules/",
+    "display": "standalone",
+    "background_color": "#513ebe",
+    "theme_color": "#111111",
+    "description": "A progressive web app for Isla Nycta rules and profiles.",
+    "icons": [
+        {
+            "src": "assets/icons/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/icons/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "🦖 Path of Titans",
+            "url": "https://yldales.github.io/isla-nycta-rules/pot/index.html"
+        }
+    ],
+    "scope": "https://yldales.github.io/isla-nycta-rules"
+}
