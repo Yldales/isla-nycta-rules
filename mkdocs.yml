@@ -141,6 +141,8 @@ nav:
           - Sachicasaurus: pot/carnivores/4/sachicasaurus.md
           - Spinosaurus: pot/carnivores/4/spinosaurus.md
           - Tyrannosaurus: pot/carnivores/4/tyrannosaurus.md
+        - Tier 5:
+          - Livyatan: pot/carnivores/5/livyatan.md
       - "🌿 Herbivores":
         - Tier 0:
           - Dryosaurus: pot/herbivores/0/dryosaurus.md
@@ -150,9 +152,11 @@ nav:
           - Struthiomimus: pot/herbivores/1/struthiomimus.md
         - Tier 2:
           - Albertaceratops: pot/herbivores/2/albertaceratops.md
+          - Bonapartenykus: pot/herbivores/2/bonapartenykus.md
           - Citipati: pot/herbivores/2/citipati.md
           - Kentrosaurus: pot/herbivores/2/kentrosaurus.md
-          - Lambeosaurus: pot/herbivores/2/lambeosaurus.md
+          - Lambeosaurus: pot/herbivores/2/lambeosaurus.
+          - Lurdusaurus: pot/herbivores/2/lurdusaurus.md
           - Pachycephalosaurus: pot/herbivores/2/pachycephalosaurus.md
           - Styracosaurus: pot/herbivores/2/styracosaurus.md
         - Tier 3:
